@@ -1,0 +1,105 @@
+.team1 {
+    text-align: center;
+    margin-top: 20px;padding: 5px;
+}
+.team1 input{
+   border-bottom: 2px solid #273c75;
+   text-align: center;
+   font-weight: bold;
+   font-size: 25px;
+
+}
+input{
+    border: none;
+}
+.team1 input:focus{
+    border-bottom: 2px solid #1a45bd;
+    outline: none;
+    color:#15062f;
+
+}
+
+.score1{
+    text-align: center;
+}
+.score1 input{
+    height: 150px;
+    width: 150px;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 10px;
+    
+    text-align: center;
+   
+}
+.buttons{
+    text-align: center;
+    padding: 10px;
+}
+.buttons button{
+    font-size: 30px;
+    margin: 10px;
+    background: transparent;
+    border: 2px solid #1a45bd;
+    outline: none;
+   transition: .2s;
+}
+
+.buttons button:active{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+}
+
+
+/* watch  */
+
+.digit {
+    font-size: 40px;
+    color: rgb(4, 0, 0);
+}
+  #time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.txt {
+    font-size: 30px;
+    color: #0a090152;
+}
+  
+#buttons {
+    display: flex;
+    margin-top: 20px;
+}
+  
+.btn {
+    width: 100px;
+    padding: 5px 10px;
+    margin: 0px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+    font-weight: 500;
+}
+  
+#start {
+    background-color: #009779;
+}
+  
+#stop {
+    background-color: #0e85fc;
+}
+  
+#reset {
+    background-color: #c91400;
+}
+
+.stopwatch{
+    margin: 30px;
+}
